@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+/* -------------------------------------- */
+/* main first top  */
+.top1{
+    height: 4.125rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+/* logo of flipkart and travel  */
+.topLogo{
+    display: flex;
+    gap: 1.2rem;
+    margin-left: 1rem;
+}
+.flipkartName{
+    height: 2.5rem;
+    width: 6.8rem;
+    margin-top: 0.5rem;
+    border-radius: 13.33%;
+    box-sizing: border-box; 
+    border-width: 1.4px;
+    justify-content: center;
+    /* border-color: rgba(255, 255, 255, 0.4);  */
+    background-color: #FFE51F;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+}
+.flipkartImg{
+    height: 2rem;
+    padding-top: 10px;
+}
+.travelLogo{
+    height: 2.5rem;
+    width: 6.8rem;
+    margin-top: 0.5rem;
+    border-radius: 13.33%;
+    box-sizing: border-box; 
+    border-width: 1.4px;
+    justify-content: center;
+    border-color: rgba(255, 255, 255, 0.4); 
+    background-color: #F0F0F0;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+}
+.travelImg{
+    height: 2rem;
+    padding-top: 10px;
+}
+/* location side styling */
+.location{
+    height: 2.5rem;
+    width: 25rem ;
+    margin-top: 0.5rem;
+    margin-right: 3.3rem;
+    justify-content: center;
+    /* border-color: rgba(255, 255, 255, 0.4);  */
+    padding: 4px 16px;
+    display: flex;
+    /* align-items: center; */
+}
+.locationText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.5rem;
+}
+.locationText p{
+    font-weight:600;
+}
+/* -------------------------------------- */
